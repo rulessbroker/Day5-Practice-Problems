@@ -5,10 +5,19 @@ echo dice 1 - 6 number
 echo $((1 + RANDOM%6))
 
 echo two dice addition
-dice1=$((RANDOM%6))
-dice2=$((RANDOM%6))
-     sum=$((dice1+dice2))
+dice1=$((1+RANDOM%6))
+dice2=$((1+RANDOM%6))
+     sum=$((dice1 + dice2))
      	echo=$sum
 
-
+echo Progam of five random two digit values
+value1=$((10+RANDOM%11))
+value2=$((21+RANDOM%10))
+value3=$((31+RANDOM%10))
+value4=$((41+RANDOM%10))
+value5=$((51+RANDOM%10))
+ 	sum=$((value1+value2+value3+value4+value5))
+	echo=$sum
+		average=$((sum/5))
+		echo=$average
 
