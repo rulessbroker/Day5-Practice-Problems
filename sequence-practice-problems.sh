@@ -4,7 +4,7 @@ echo $((RANDOM%10))
 echo dice 1 - 6 number
 echo $((1 + RANDOM%6))
 
-#new problem
+#new program
 echo dice 1 - 6 number
 echo $((1 + RANDOM%6))
 
