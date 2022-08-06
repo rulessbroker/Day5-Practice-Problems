@@ -21,3 +21,15 @@ value5=$((51+RANDOM%10))
 		average=$((sum/5))
 		echo=$average
 
+echo Unit conversion
+read -p "Enter distance (in km) : " km
+
+meter=((km \ 1000))
+feet=((meter \ 3.2808))
+inches=((feet \ 12))
+cm=((feet \ 30.48))
+
+echo Total meter is    : meter
+echo Total feet is     : feet
+echo Total inches is   : inches
+echo Total centimeters : cm
