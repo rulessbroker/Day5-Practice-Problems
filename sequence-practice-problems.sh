@@ -5,8 +5,14 @@ echo $((RANDOM%10))
 echo dice 1 - 6 number
 echo $((1 + RANDOM%6))
 
+<<<<<<< HEAD
 #new problem
 echo dice 1 - 6 numberecho $((1 + RANDOM%6))
+=======
+#new program
+echo dice 1 - 6 number
+echo $((1 + RANDOM%6))
+>>>>>>> 8eaba1487ebd3790de61796e64c5d436c26dfaef
 
 echo two dice addition
 dice1=$((1+RANDOM%6))
