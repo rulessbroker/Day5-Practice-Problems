@@ -1,4 +1,3 @@
-echo date and month program
 read -p " Enter Date:-" date
 read -p " Enter Month:-" Month
 
